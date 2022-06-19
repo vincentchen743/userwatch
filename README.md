@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Userwatch Engineering Challenge
+## Task
+Identify a user by how they type text.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We have provided a collection of text passages. For any user session with your app, you should display a random one of those text passages, a text box, a text area and a button. Ask the user to type their name into the text box, then type out the passage into the text area. They should hit the button once done.
 
-## Available Scripts
+Once the user is done and has hit the button, your app should show the name/s of who their typing is most similar to.
+## Requirements
+The Userwatch team must be able to:
+- See and run your code
+- Works on one client platform of your choice
+  - Web (JS/Typescript)
+  - Android (Kotlin/Java)
+  - iOS (Swift/ObjC)
+- Any language is fine for the backend.
+## Bonuses
+- Consider details like the timing between letter pairs for more effective matching across strings.
+- Determine typing similarity live, rather than only once it is complete.
+- Userwatch team can load and run your application via browser or app install
+  - Only if practical and free!
+- Design and implementation facilitate future modification to address specific over-matching and under-matching examples.
+- Practical setup for evaluating whether your algorithmic changes improve or reduce quality.
+## Not expected
+- Dealing with more than one client platform
+- Storing data in any particularly robust way, use whatever is expedient even if it doesn’t scale (eg. in memory) 
+- Perfect detection, we’re interested in your overall engineering approach not just the precision and accuracy.
+## Expected time commitment
+A couple of sessions of at most a few hours each. If you have spent a whole weekend on it that is definitely too much!
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Poems
+- Who washes the windows by Harold the fox.
+- The quick brown fox washes the dishes and stares out Wendy’s window.
+- Humpdy Dumpty washes windows and jumps over the wall.
+- Windows by the sea shore require regular washes to see out.
