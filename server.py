@@ -19,4 +19,4 @@ def put_typing_profile():
     }
 
 if __name__ == "__main__":
-    APP.run(port=8080, debug=True)
+    APP.run(port=8080)
